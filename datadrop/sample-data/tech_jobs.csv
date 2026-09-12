@@ -1,0 +1,121 @@
+job_id,title,company,city,country,remote,salary_usd_min,salary_usd_max,required_years,primary_skill,secondary_skills,posted_year,posted_month,applicants
+1,Data Scientist,Adyen,Amsterdam,Netherlands,no,110000,126000,9,Python,scikit-learn;PyTorch,2023,5,662
+2,AI/ML Engineer,Cloudflare,San Francisco,USA,no,184000,214000,2,Python,LangChain;OpenAI API;FastAPI,2026,6,276
+3,Senior Backend Engineer,Contentful,Berlin,Germany,no,132000,178000,6,Java,Spring Boot;Kafka,2026,3,453
+4,Security Engineer,HashiCorp,Austin,USA,yes,132000,180000,4,Python,Go;SAST;Penetration Testing;AWS IAM,2023,10,482
+5,DevOps Engineer,Zalando,Berlin,Germany,hybrid,96000,130000,8,Terraform,Kubernetes;Ansible;Python,2023,1,638
+6,Tech Lead,1Password,Toronto,Canada,yes,167000,210000,5,Python,System Design;AWS;PostgreSQL;Mentoring,2024,9,606
+7,Mobile Engineer (Android),Notion,San Francisco,USA,hybrid,109000,140000,7,Kotlin,Jetpack Compose;Coroutines;Room,2024,11,76
+8,Mobile Engineer (Android),Vercel,San Francisco,USA,no,130000,179000,1,Kotlin,Jetpack Compose;Coroutines;Room;Hilt,2026,3,567
+9,Mobile Engineer (Android),Zepto,Mumbai,India,yes,60000,80000,7,Kotlin,Jetpack Compose;Coroutines;Room,2026,5,442
+10,Senior Software Engineer,Vercel,San Francisco,USA,hybrid,148000,197000,10,TypeScript,React;Node.js;AWS,2026,11,331
+11,Software Engineer,Grab,Singapore,Singapore,no,68000,83000,10,Python,Django;PostgreSQL,2023,7,319
+12,Senior Frontend Engineer,Datadog,New York,USA,yes,147000,195000,2,TypeScript,React;GraphQL;Storybook,2025,11,664
+13,DevOps Engineer,Airbnb,San Francisco,USA,yes,155000,193000,6,Terraform,Kubernetes;Ansible;Python;CI/CD,2026,9,270
+14,Mobile Engineer (Android),Datadog,New York,USA,hybrid,139000,197000,10,Kotlin,Jetpack Compose;Coroutines;Room,2023,5,877
+15,Platform Engineer,Notion,San Francisco,USA,no,174000,206000,1,Go,Kubernetes;Helm;Prometheus;Terraform,2023,12,462
+16,AI/ML Engineer,Adyen,Amsterdam,Netherlands,hybrid,148000,194000,4,Python,LangChain;OpenAI API,2024,3,82
+17,Platform Engineer,Microsoft,Seattle,USA,yes,167000,203000,5,Go,Kubernetes;Helm;Prometheus,2023,10,577
+18,Senior Data Engineer,Datadog,New York,USA,yes,144000,166000,6,Python,Kafka;Flink;BigQuery;dbt,2025,11,439
+19,ML Engineer,Razorpay,Bangalore,India,no,95000,111000,5,Python,PyTorch;CUDA;Docker,2023,7,61
+20,Platform Engineer,N26,Berlin,Germany,no,111000,138000,6,Go,Kubernetes;Helm;Prometheus,2025,7,883
+21,Cloud Engineer,Monzo,London,UK,no,122000,171000,3,AWS,Terraform;Python,2024,12,427
+22,Senior Backend Engineer,Contentful,Berlin,Germany,hybrid,130000,176000,1,Java,Spring Boot;Kafka,2025,10,821
+23,Senior Frontend Engineer,DigitalOcean,New York,USA,no,131000,158000,6,TypeScript,React;GraphQL,2025,1,773
+24,Staff Engineer,Wise,London,UK,no,206000,234000,2,Go,Kubernetes;gRPC,2025,9,564
+25,ML Engineer,Shopify,Toronto,Canada,yes,129000,159000,2,Python,PyTorch;CUDA,2023,8,62
+26,Database Engineer,Figma,San Francisco,USA,no,128000,150000,9,PostgreSQL,MySQL;Redis,2026,10,318
+27,Cloud Engineer,Monzo,London,UK,hybrid,116000,139000,9,AWS,Terraform;Python,2023,9,256
+28,Data Scientist,Razorpay,Bangalore,India,hybrid,77000,93000,1,Python,scikit-learn;PyTorch;SQL;Tableau,2024,11,473
+29,Frontend Engineer,MongoDB,New York,USA,hybrid,100000,126000,8,TypeScript,React;Next.js;CSS,2026,10,893
+30,Security Engineer,Cockroach Labs,New York,USA,no,159000,197000,9,Python,Go;SAST;Penetration Testing;AWS IAM,2026,3,92
+31,Senior Backend Engineer,Grafana Labs,Austin,USA,yes,137000,195000,5,Java,Spring Boot;Kafka,2026,6,462
+32,Data Scientist,Cockroach Labs,New York,USA,hybrid,139000,170000,6,Python,scikit-learn;PyTorch;SQL;Tableau,2024,11,759
+33,Security Engineer,Canva,Sydney,Australia,no,88000,107000,6,Python,Go;SAST;Penetration Testing,2026,5,872
+34,Cloud Engineer,Lyft,San Francisco,USA,no,148000,177000,1,AWS,Terraform;Python,2024,6,505
+35,Frontend Engineer,Vercel,San Francisco,USA,hybrid,128000,156000,2,TypeScript,React;Next.js;CSS;Vitest,2023,7,750
+36,Mobile Engineer (Android),Notion,San Francisco,USA,yes,138000,186000,10,Kotlin,Jetpack Compose;Coroutines;Room,2026,5,531
+37,Database Engineer,Deliveroo,London,UK,no,99000,132000,8,PostgreSQL,MySQL;Redis;Cassandra,2026,4,883
+38,Site Reliability Engineer,Booking.com,Amsterdam,Netherlands,no,108000,150000,3,Go,Python;Prometheus;Grafana;Kubernetes,2026,6,19
+39,Security Engineer,Linear,San Francisco,USA,yes,141000,179000,4,Python,Go;SAST,2026,3,929
+40,Security Engineer,Atlassian,Sydney,Australia,hybrid,88000,117000,5,Python,Go;SAST,2024,8,966
+41,Database Engineer,Figma,San Francisco,USA,hybrid,116000,158000,8,PostgreSQL,MySQL;Redis;Cassandra;SQL tuning,2023,3,146
+42,Software Engineer,DigitalOcean,New York,USA,no,98000,132000,5,Python,Django;PostgreSQL,2023,6,191
+43,Principal Engineer,Adyen,Amsterdam,Netherlands,hybrid,207000,237000,1,Rust,C++;LLVM;Systems Programming,2024,9,130
+44,Mobile Engineer (iOS),1Password,Toronto,Canada,yes,108000,129000,4,Swift,SwiftUI;Combine,2026,6,419
+45,Engineering Manager,HubSpot,Boston,USA,hybrid,195000,216000,10,System Design,Agile;TypeScript,2024,1,719
+46,Principal Engineer,Lyft,San Francisco,USA,no,301000,336000,1,Rust,C++;LLVM,2026,9,432
+47,Data Scientist,Deliveroo,London,UK,yes,102000,143000,1,Python,scikit-learn;PyTorch;SQL,2024,8,756
+48,Database Engineer,HubSpot,Boston,USA,no,135000,182000,10,PostgreSQL,MySQL;Redis;Cassandra;SQL tuning,2023,10,185
+49,Site Reliability Engineer,Amazon,Seattle,USA,no,179000,231000,6,Go,Python;Prometheus;Grafana,2025,7,927
+50,ML Engineer,GoTo,Singapore,Singapore,no,93000,125000,7,Python,PyTorch;CUDA,2026,12,23
+51,Software Engineer,Figma,San Francisco,USA,no,114000,171000,5,Python,Django;PostgreSQL,2025,9,91
+52,Engineering Manager,Grab,Singapore,Singapore,yes,118000,150000,5,System Design,Agile;TypeScript,2024,8,271
+53,Mobile Engineer (Android),Linear,San Francisco,USA,no,117000,171000,4,Kotlin,Jetpack Compose;Coroutines;Room;Hilt,2026,1,208
+54,Data Scientist,Linear,San Francisco,USA,no,127000,171000,5,Python,scikit-learn;PyTorch,2023,10,328
+55,ML Engineer,Linear,San Francisco,USA,no,131000,167000,4,Python,PyTorch;CUDA;Docker;Kubernetes,2025,4,298
+56,DevOps Engineer,Contentful,Berlin,Germany,no,105000,147000,7,Terraform,Kubernetes;Ansible;Python;CI/CD,2025,7,804
+57,Mobile Engineer (iOS),Booking.com,Amsterdam,Netherlands,yes,101000,134000,7,Swift,SwiftUI;Combine;Core Data,2025,6,62
+58,Staff Engineer,Revolut,London,UK,yes,211000,252000,5,Go,Kubernetes;gRPC;Terraform,2025,9,425
+59,Engineering Manager,Atlassian,Sydney,Australia,no,99000,116000,3,System Design,Agile;TypeScript,2024,12,103
+60,Software Engineer,HubSpot,Boston,USA,no,126000,174000,3,Python,Django;PostgreSQL;Docker,2023,2,28
+61,Full Stack Engineer,Stripe,San Francisco,USA,hybrid,101000,130000,6,TypeScript,React;Node.js;PostgreSQL;AWS,2023,2,68
+62,Data Scientist,Vercel,San Francisco,USA,yes,111000,165000,7,Python,scikit-learn;PyTorch;SQL;Tableau,2024,5,807
+63,Site Reliability Engineer,Figma,San Francisco,USA,hybrid,134000,175000,3,Go,Python;Prometheus,2023,9,617
+64,Data Scientist,Linear,San Francisco,USA,yes,127000,186000,10,Python,scikit-learn;PyTorch;SQL,2023,6,520
+65,Database Engineer,Datadog,New York,USA,yes,153000,213000,10,PostgreSQL,MySQL;Redis;Cassandra;SQL tuning,2025,4,585
+66,Senior Frontend Engineer,Cockroach Labs,New York,USA,yes,158000,192000,1,TypeScript,React;GraphQL,2025,7,545
+67,Database Engineer,Revolut,London,UK,hybrid,134000,168000,4,PostgreSQL,MySQL;Redis;Cassandra;SQL tuning,2025,4,698
+68,Cloud Engineer,Airbnb,San Francisco,USA,no,150000,170000,8,AWS,Terraform;Python,2026,12,596
+69,Principal Engineer,HashiCorp,Austin,USA,hybrid,302000,346000,4,Rust,C++;LLVM,2026,6,507
+70,Mobile Engineer (iOS),Amazon,Seattle,USA,hybrid,145000,176000,10,Swift,SwiftUI;Combine;Core Data,2026,1,107
+71,Backend Engineer,Scale AI,San Francisco,USA,hybrid,130000,181000,8,Go,PostgreSQL;Redis;gRPC,2026,9,783
+72,Mobile Engineer (iOS),Deliveroo,London,UK,hybrid,124000,165000,6,Swift,SwiftUI;Combine,2023,7,467
+73,Frontend Engineer,Razorpay,Bangalore,India,hybrid,61000,73000,10,TypeScript,React;Next.js,2024,5,947
+74,Frontend Engineer,DigitalOcean,New York,USA,hybrid,118000,174000,3,TypeScript,React;Next.js,2023,5,784
+75,Senior Software Engineer,Revolut,London,UK,no,124000,143000,10,TypeScript,React;Node.js;AWS,2023,12,493
+76,Backend Engineer,Notion,San Francisco,USA,no,114000,153000,5,Go,PostgreSQL;Redis,2025,2,502
+77,Cloud Engineer,Amazon,Seattle,USA,hybrid,159000,206000,1,AWS,Terraform;Python;Kubernetes;CDK,2023,10,130
+78,Senior Data Engineer,Revolut,London,UK,no,156000,184000,6,Python,Kafka;Flink;BigQuery,2023,5,391
+79,Frontend Engineer,Shopify,Toronto,Canada,yes,97000,127000,5,TypeScript,React;Next.js,2024,8,241
+80,Data Engineer,GoTo,Singapore,Singapore,hybrid,76000,95000,6,Python,Spark;Airflow,2024,6,687
+81,Platform Engineer,Linear,San Francisco,USA,yes,133000,171000,5,Go,Kubernetes;Helm;Prometheus;Terraform,2024,6,943
+82,Full Stack Engineer,Wealthsimple,Toronto,Canada,no,102000,127000,1,TypeScript,React;Node.js;PostgreSQL,2024,8,344
+83,ML Engineer,Microsoft,Seattle,USA,yes,166000,187000,9,Python,PyTorch;CUDA,2024,8,974
+84,ML Engineer,GoTo,Singapore,Singapore,hybrid,87000,111000,8,Python,PyTorch;CUDA,2026,3,847
+85,Data Engineer,Atlassian,Sydney,Australia,no,70000,90000,2,Python,Spark;Airflow;dbt,2026,8,747
+86,Data Scientist,Temporal,Seattle,USA,yes,128000,173000,5,Python,scikit-learn;PyTorch;SQL;Tableau,2023,5,814
+87,Senior Software Engineer,Rippling,San Francisco,USA,no,135000,181000,8,TypeScript,React;Node.js;AWS,2025,4,22
+88,Security Engineer,Wealthsimple,Toronto,Canada,yes,114000,132000,3,Python,Go;SAST;Penetration Testing;AWS IAM,2026,4,877
+89,Senior Backend Engineer,Linear,San Francisco,USA,yes,169000,222000,9,Java,Spring Boot;Kafka;Kubernetes;AWS,2025,12,36
+90,AI/ML Engineer,Amazon,Seattle,USA,yes,188000,225000,8,Python,LangChain;OpenAI API;FastAPI;Redis,2024,10,423
+91,Security Engineer,GoTo,Singapore,Singapore,no,79000,111000,1,Python,Go;SAST;Penetration Testing;AWS IAM,2023,8,500
+92,AI/ML Engineer,Monzo,London,UK,no,172000,198000,3,Python,LangChain;OpenAI API,2024,12,779
+93,Security Engineer,Deliveroo,London,UK,hybrid,137000,159000,9,Python,Go;SAST;Penetration Testing,2025,5,741
+94,Principal Engineer,Notion,San Francisco,USA,hybrid,235000,264000,4,Rust,C++;LLVM,2024,8,583
+95,Senior Backend Engineer,Grafana Labs,Austin,USA,hybrid,177000,215000,7,Java,Spring Boot;Kafka;Kubernetes,2023,3,659
+96,Mobile Engineer (iOS),Datadog,New York,USA,no,130000,171000,4,Swift,SwiftUI;Combine;Core Data,2024,9,241
+97,Senior Software Engineer,Razorpay,Bangalore,India,yes,74000,92000,9,TypeScript,React;Node.js;AWS,2023,8,59
+98,Database Engineer,N26,Berlin,Germany,no,99000,139000,2,PostgreSQL,MySQL;Redis,2026,3,472
+99,Frontend Engineer,Datadog,New York,USA,no,95000,138000,8,TypeScript,React;Next.js,2024,6,437
+100,Mobile Engineer (Android),Cloudflare,San Francisco,USA,yes,107000,136000,6,Kotlin,Jetpack Compose;Coroutines;Room;Hilt,2026,12,732
+101,Database Engineer,Cockroach Labs,New York,USA,hybrid,147000,205000,10,PostgreSQL,MySQL;Redis,2024,12,587
+102,Senior Data Engineer,MongoDB,New York,USA,no,170000,198000,4,Python,Kafka;Flink,2026,11,898
+103,Security Engineer,Revolut,London,UK,yes,144000,183000,3,Python,Go;SAST,2024,4,481
+104,Cloud Engineer,Airbnb,San Francisco,USA,hybrid,135000,156000,3,AWS,Terraform;Python;Kubernetes;CDK,2024,2,492
+105,Security Engineer,Temporal,Seattle,USA,hybrid,154000,187000,9,Python,Go;SAST,2025,1,977
+106,Tech Lead,Monzo,London,UK,hybrid,166000,195000,9,Python,System Design;AWS,2023,5,770
+107,Senior Backend Engineer,Lyft,San Francisco,USA,no,149000,176000,4,Java,Spring Boot;Kafka;Kubernetes,2026,7,319
+108,Security Engineer,Temporal,Seattle,USA,hybrid,144000,197000,6,Python,Go;SAST,2025,9,335
+109,Senior Frontend Engineer,Figma,San Francisco,USA,no,131000,172000,1,TypeScript,React;GraphQL;Storybook;Playwright,2026,8,895
+110,Senior Frontend Engineer,HubSpot,Boston,USA,no,154000,175000,1,TypeScript,React;GraphQL,2026,3,799
+111,Platform Engineer,Deliveroo,London,UK,hybrid,140000,160000,8,Go,Kubernetes;Helm;Prometheus;Terraform,2025,3,370
+112,Senior Data Scientist,Booking.com,Amsterdam,Netherlands,hybrid,163000,205000,2,Python,TensorFlow;MLflow;Spark,2025,10,907
+113,Software Engineer,MongoDB,New York,USA,yes,107000,134000,3,Python,Django;PostgreSQL;Docker,2024,12,915
+114,Principal Engineer,Rippling,San Francisco,USA,no,287000,310000,7,Rust,C++;LLVM,2023,5,284
+115,Principal Engineer,HashiCorp,Austin,USA,no,299000,328000,4,Rust,C++;LLVM,2023,1,125
+116,Data Engineer,Booking.com,Amsterdam,Netherlands,no,109000,127000,2,Python,Spark;Airflow;dbt;Snowflake,2026,4,913
+117,Full Stack Engineer,DigitalOcean,New York,USA,hybrid,138000,172000,4,TypeScript,React;Node.js;PostgreSQL,2026,4,212
+118,AI/ML Engineer,Figma,San Francisco,USA,no,187000,219000,2,Python,LangChain;OpenAI API;FastAPI;Redis,2026,3,493
+119,Full Stack Engineer,Cloudflare,San Francisco,USA,yes,122000,156000,2,TypeScript,React;Node.js,2023,5,497
+120,Tech Lead,Grab,Singapore,Singapore,no,100000,133000,3,Python,System Design;AWS;PostgreSQL;Mentoring,2024,1,811
