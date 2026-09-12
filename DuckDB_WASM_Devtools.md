@@ -36,6 +36,28 @@ const conn = await db.connect();
 
 console.log("Connected to DuckDB");
 
+const t2 = performance.now();
+// run a conn.query with generate_series to generate a series of numbers
+const result = await conn.query("SELECT * FROM generate_series(1, 10, 1);"); // generate a series of numbers from 1 to 10 with step 1
+const t3 = performance.now();
 
+console.log(`First query executed in ${(t3 - t2).toFixed(0)}ms`);
+
+console.log(result.toArray().map(row => row.toJSON()));
+
+
+const t4 = performance.now();
+const result2 = await conn.query("SELECT * FROM generate_series(1, 10000000, 5);"); // generate a series of numbers from 1 to 10000000 with step 5
+const t5 = performance.now();
+console.log(`Second query executed in ${(t5 - t4).toFixed(0)}ms`);
+
+console.log(result2.toArray().map(row => row.toJSON()));
+
+await conn.close();
+console.log("Connection closed");
+await db.terminate();
+console.log("Database terminated");
+worker.terminate();
+console.log("Worker terminated");
 
 ```
