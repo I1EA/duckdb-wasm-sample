@@ -1,3 +1,4 @@
+import { DataTable } from "./components/DataTable";
 import { Dropzone } from "./components/Dropzone";
 import { QueryEditor } from "./components/QueryEditor";
 import { TableList } from "./components/TableList";
@@ -29,6 +30,9 @@ function App() {
             isRunning={false}
             disabled={false}
           />
+
+          {/* // TODO: Display query results using the DataTable component */}
+          <DataTable columns={[]} rows={[]} />
         </main>
       </div>
     </div>
